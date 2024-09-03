@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+     background-color:#0e0e0dee; 
+    /* background:linear-gradient(80deg,rgb(237, 253, 252),rgb(170, 170, 248),rgb(248, 201, 114)); */
+}
+.weatherapp{
+    text-align: center;
+    justify-items: center;
+    color: linear-gradient(15deg,#f5f18d,#fd8d8d,#49e112);
+    margin-top: 5px;
+}
+.weatherapp.h1{
+        color:linear-gradient(15deg,#f7f2d0,#7edeeb,#a4fc84);
+}
+
+.card{
+    width: 90%;
+    height: 500px;
+    max-width: 500px;
+    background: linear-gradient(135deg, #edf889, #fac1fa);
+    color: #e72b12;
+    margin: 50px auto 0;
+
+    padding: 40px 35px;
+    text-align: right;
+    
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background: #e1eddf;
+    color: #0a0101;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background: #75e6d5;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.search button:hover{
+    background: #ebebb9;
+}
+.search button img{
+    width: 20px;
+}
+.weather-icon{
+    width: 70px;
+    margin-top: 30px;
+
+
+}
+.weatherapp.h1.weather h1{
+    font-size: 100px;
+    font-weight: 500;
+}
+.weather h2{
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+
+
+}
+.col img{
+    width: 50px;
+    margin-right: 10px;
+}
+.humidity, .wind{
+    font-size: 30px;
+    margin-top: -6px;
+}
+.weather{
+    display: none;
+
+}
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+     background-color:#abf107cf; */
+    /* background:linear-gradient(80deg,red,rgb(122, 122, 182),orange);*/ 
+}
+.weatherapp{
+    text-align: center;
+    justify-items: center;
+    color: linear-gradient(15deg,#f7f750,#f1b8bf,#b6fc9d);
+    margin-top:10px;
+}
+.weatherapp.h1{
+        color:linear-gradient(15deg,#d3f84e,#c12234,#49e112);
+}
+
+.card{
+    width: 80%;
+    height: 500px;
+    max-width: 570px;
+    background: linear-gradient(135deg, #63f038, #d045d0);
+    color: #0a0a0a;
+    margin:70px auto 0;
+    border-radius:0px;
+    padding: 40px 40px;
+    text-align: center;
+    
+}
+.search{
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background: #e1eddf;
+    color: #0a0101;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.search button:hover{
+    background: #cec2bd;
+}
+.search button img{
+    width: 20px; 
+}
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+
+
+}
+.weatherapp.h1.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+
+
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+.humidity, .wind{
+    font-size: 28px;
+    margin-top: -6px;
+}
+.weather{
+    display: none;
+
+}
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
+
